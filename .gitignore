@@ -25,3 +25,6 @@ dist-ssr
 
 # Kiro AI config
 .kiro/
+
+# Personal files
+WhatsApp Image*
