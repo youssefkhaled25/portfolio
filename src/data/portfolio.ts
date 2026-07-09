@@ -63,24 +63,24 @@ export const ABOUT_DATA: AboutProps = {
 
 export const SKILLS_DATA: SkillCategory[] = [
   {
-    category: 'Frontend',
+    category: 'Frontend Fundamentals',
     icon: 'Layout',
-    skills: ['React 18', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+    skills: ['HTML/CSS', 'JavaScript', 'React'],
   },
   {
-    category: 'Backend',
+    category: 'Backend Fundamentals',
     icon: 'Server',
-    skills: ['Node.js', 'Express', 'MongoDB', 'JWT Auth', 'REST API', 'FastAPI', 'Flask'],
+    skills: ['REST APIs', 'Databases', 'Authentication'],
   },
   {
     category: 'Languages',
     icon: 'Code2',
-    skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'C++', 'PHP', 'YAML'],
+    skills: ['Python', 'JavaScript', 'PHP', 'YAML'],
   },
   {
     category: 'Tools & Infra',
     icon: 'Wrench',
-    skills: ['Git / GitHub', 'Docker', 'ESLint / Prettier', 'Apache Tomcat', 'Apache', 'Redis', 'Virtualization'],
+    skills: ['Git / GitHub', 'Docker', 'Apache Tomcat', 'Apache', 'Redis', 'Virtualization'],
   },
   {
     category: 'Cloud & AWS',
@@ -248,5 +248,6 @@ export const CONTACT_DATA: ContactProps = {
     { platform: 'GitHub', url: 'https://github.com/youssefkhaled25', icon: 'Github' },
     { platform: 'LinkedIn', url: '[LINKEDIN_URL]', icon: 'Linkedin' }, // [REPLACE]
     { platform: 'Email', url: 'mailto:youssefkhaled252004@gmail.com', icon: 'Mail' },
+    { platform: 'Phone', url: 'tel:+201066587987', icon: 'Phone' },
   ],
 }

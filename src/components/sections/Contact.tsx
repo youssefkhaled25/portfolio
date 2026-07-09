@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react'
+import { Github, Linkedin, Mail, Phone, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { SectionWrapper } from '../layout/SectionWrapper'
 import { SectionHeader } from '../ui/SectionHeader'
@@ -14,6 +14,7 @@ const ICON_MAP: Record<string, LucideIcon> = {
   Github,
   Linkedin,
   Mail,
+  Phone,
 }
 
 function SocialIcon({ name }: { name: string }) {
